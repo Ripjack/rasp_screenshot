@@ -27,4 +27,3 @@ while True:
         conn.request('POST', '/{}'.format(serverfile), img_json, headers)
         resp = conn.getresponse().decode()
         conn.close()
-        print('boy')
